@@ -1,0 +1,76 @@
+/*
+    estilo.ccs
+    @author Angel Manuel Fernandez Baños
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 1440px;
+}
+body{
+    /*width: 1440px;*/
+    width: 100%;
+    margin: auto;
+    background-color: #0079b6;
+}
+header{
+    background-color: #006293;
+    width: 1320px;
+    height: 100px;
+    padding: 0px 60px;
+    display: flex;
+    text-align: center;
+}
+h1{
+    margin: auto;
+}
+main{
+    width: 1200px;
+    height: auto;
+}
+#posicion1{
+    width: 400px;
+    height: auto;
+    margin: 30px 120px;
+    float: left;
+}
+img{
+    max-width: 100%;
+}
+#img1{
+    padding-top: 80px;
+}
+#posicion2{
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 120px;
+    float: left;
+}
+#posicion3{
+    clear: left;
+    width: 600px;
+    height: auto;
+    background-color: #dd9933;   
+    margin-top: 30px;
+    margin-left: 300px;
+}
+#posicion4{
+    width: 560px;
+    height: 315px;
+    background-color: white;   
+    margin-top: 60px;
+    margin-left: 320px;
+    clear: left;
+}
+footer{
+    background-color: #006293;
+    width: 1320px;
+    height: 100px;
+    margin: 80px 60px 0px 60px;
+    display: flex;
+    text-align: center;
+    
+}
